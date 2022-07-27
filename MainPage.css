@@ -1,0 +1,457 @@
+body
+{
+  background: black;
+}
+#Header-Top
+{
+  background-color: black;
+  padding: 4px 0px 0px 0px;
+}
+#Header-Top c
+{
+  color: rgb(229, 228, 226);
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 13px;
+}
+#Navbar 
+{
+	background: black;
+  padding: 0px;
+}
+
+#Banner
+{
+  background:black;
+  padding: 35px 0px 30px 0px;
+}
+#Banner h1
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 10px 0px 20px 0px;
+}
+#Banner a{
+  text-decoration: none;
+}
+#Banner h6
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 10px 0px 42px 0px;
+}
+#Banner h3
+{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  margin: 0px 0px 0px 0px;;
+}
+#JordanShoes
+{
+	background:black;
+  padding: 45px 0px 30px 0px;
+}
+#JordanShoes h1
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0px 0px 0px 0px;
+}
+#JordanShoes a
+{
+ text-decoration: none;
+}
+#JordanShoes h6
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 0px 0px 42px 0px;
+}
+.box1
+{
+  width: 100%; 
+  height: 400px;
+  margin: 47px 0px 40px 0px;
+  background-color: #212527;
+  border: 1px solid #212527;
+  border-radius: 20px;
+}
+.box2
+{
+  width: 100%;
+  height: 490px;
+  margin: 0px 0px 0px 0px;
+  background-color: #212527;
+  border: 1px solid #212527;
+  transition: transform .2s;
+  border-radius: 20px;
+}
+.box1 img:hover
+{
+  transform: scale(1.5);
+}
+.box2 img:hover
+{
+  transform: scale(1.5);
+}
+#JordanShoes h3{
+  color: white;
+  margin: 30px 0px 0px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+#JordanShoes h2{
+  color: white;
+  margin: 55px 0px 0px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+#JordanShoes h5
+{
+  color: #888;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin: 18px 0px 18px 0px;
+}
+#JordanShoes h4
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 22px 0 26px 0;
+  font-size: 14px;
+  color: #888;
+}
+#AfterJordan
+{
+  padding: 100px 0px 30px 0px;
+  background-color: black;
+}
+#AfterJordan img
+{
+  height: 420px;
+  width: 80%;
+  border-radius: 100%;
+  border: 2px solid green;
+  margin: 40px 45px 30px 0px;
+  float: right;
+}
+#AfterJordan h1
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  margin: 120px 0px 20px 30px;
+  text-align: start;
+}
+#AfterJordan h4
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 0px 0px 40px 30px;
+  text-align: start;
+}
+#AdidasShoes
+{
+	background:black;
+  padding: 55px 0px 30px 0px;
+}
+#AdidasShoes h1
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 60px 0px 0px 0px;
+}
+#AdidasShoes a
+{
+ text-decoration: none;
+}
+#AdidasShoes h6
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 0px 0px 62px 0px;
+}
+.box
+{
+  width: 100%;
+  height: 320px;
+  border-radius: 35px;
+  cursor: pointer;
+  background: #212527;
+  margin: 0px 0px 30px 0px;
+  transition: .3s ease;
+ /*filter: grayscale(100); */
+}
+.box:hover
+{
+  transform: translateY(-10px);
+  /* filter: grayscale(0); */
+}
+.box img
+{
+  border: 3px solid green;
+  border-radius: 35px;
+  width: 100%;
+  height: 240px;
+}
+#AdidasShoes h3
+{
+  font-weight: 500;
+  color: #888;
+  font-size: 17px;
+  float: left;
+  text-align: start;
+  margin: 25px 0px 0px 25px;
+}
+#AdidasShoes h4
+{
+  cursor: initial;
+  color: green;
+  font-size: 14px;
+  font-weight: 500;
+  float: right;
+  margin: 20px 30px 0px 0px;
+}
+.box .fa-star
+{
+  color: orange;
+  font-size: 14px;
+  cursor: initial;
+  margin: 6px 0px 0px 0px;
+}
+#AfterAdidas
+{
+  padding: 100px 0px 50px 0px;
+  background-color: black;
+}
+#AfterAdidas img
+{
+  height: 420px;
+  width: 100%;
+  border-radius: 10%;
+  border: 2px solid green;
+  margin: 10px 0px 30px 0px;
+  float: left;
+}
+#AfterAdidas h1
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  margin: 110px 0px 20px 0px;
+  text-align: start;
+  float: left;
+}
+#AfterAdidas h4
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 0px 0px 40px 0px;
+  text-align: start;
+  float: left;
+}
+#VansShoes
+{
+	background:black;
+  padding: 55px 0px 70px 0px;
+}
+#VansShoes h1
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 60px 0px 0px 0px;
+}
+#VansShoes a
+{
+ text-decoration: none;
+}
+#VansShoes h6
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 0px 0px 62px 0px;
+}
+.custom
+{
+  width: 180px;
+  margin: 10px 10px 0px 10px;
+}
+#AfterVans
+{
+  padding: 100px 0px 100px 0px;
+  background-color: black;
+}
+#AfterVans img
+{
+  height: 420px;
+  width: 100%;
+  border-radius: 10%;
+  border: 2px solid green;
+  margin: 10px 0px 30px 0px;
+  float: left;
+}
+#AfterVans h1
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  margin: 145px 0px 20px 40px;
+  text-align: start;
+  float: left;
+}
+#AfterVans h4
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 0px 0px 20px 42px;
+  text-align: start;
+  float: left;
+}
+.vibut
+{
+  border-radius: 24px; 
+  float: left; 
+  margin: 10px 0px 0px 42px;
+}
+#FooterTop
+{
+  background-color: black;
+  padding: 50px 0px 0px 0px;
+}
+.footertop
+{
+    position: relative;
+    height: 578px;
+    overflow: hidden;
+}
+.footertop img
+{
+  height: 578px;
+  width: 100%;
+  opacity: 0.3;
+}
+.footf
+{
+  position: absolute;
+  top: 120px;
+  left: 276px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.footf h1
+{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 10px 0px 10px 0px;
+  opacity: 0.8;
+}
+.footf h2
+{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px 0px 0px 5px;
+  opacity: 0.8;
+}
+.footf h3
+{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 0px 0px 5px;
+  opacity: 0.8;
+}
+.foots
+{
+  position: absolute;
+  top: 195px;
+  left: 732px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.foots h2
+{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin: 20px 0px 0px 5px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.foots h3
+{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin: 0px 0px 0px 5px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+#Footer
+{
+  background-color: black;
+  padding: 2px 0px 15px 0px; 
+  opacity: 0.9;
+}
+#Footer h3
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 14px 0px 0px 0px;
+}
+#Footer h4
+{
+  color: rgb(208, 212, 208);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 34px 0px 0px 0px;
+  
+}
+#Footer h4 a
+{
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 12px 0px 0px 0px;
+  text-decoration: none;
+}
+#Footer img
+{
+  height: 60px;
+  width: 70px;
+}
+#Footer h3 a
+{
+  color: green;
+}
+
+
+
+
+
+
+    
+
+
